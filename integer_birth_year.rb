@@ -7,3 +7,9 @@
 #   "Wow, you were born in 1940. You're old!"
 
 p "How old are you?"
+
+their_number = gets.to_i
+
+age = 2020 - their_number
+
+p "Wow, you were born in " + age.to_s + ". You're old!"
